@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "AXStateButton",
     platforms: [
-        .iOS("8.0")
+        .iOS("10.0")
     ],
     products: [
         .library(
