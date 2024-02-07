@@ -17,7 +17,8 @@ let package = Package(
         .target(
             name: "AXStateButton",
             dependencies: [],
-            path: "Source"
+            path: "Source",
+            publicHeadersPath: "Source"
         )
     ]
 )
