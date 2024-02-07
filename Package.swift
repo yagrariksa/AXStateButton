@@ -18,7 +18,10 @@ let package = Package(
             name: "AXStateButton",
             dependencies: [],
             path: "Source",
-            publicHeadersPath: "Source"
+            sources: [
+                "AXStateButton.h", 
+                "AXStateButton.m", 
+            ],
         )
     ]
 )
