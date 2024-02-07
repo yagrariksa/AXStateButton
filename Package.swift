@@ -9,15 +9,16 @@ let package = Package(
     products: [
         .library(
             name: "AXStateButton",
-            targets: ["AXStateButton"]
-        )
+            targets: ["Core"]
+        ),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "AXStateButton",
+            name: "Core",
             dependencies: [],
-            path: "Source"
+            path: "Source",
+            publicHeadersPath: "."
         )
     ]
 )
